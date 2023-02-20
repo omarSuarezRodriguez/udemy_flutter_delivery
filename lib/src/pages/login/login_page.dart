@@ -53,7 +53,10 @@ class LoginPage extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           padding: EdgeInsets.symmetric(vertical: 15.0),
         ),
-        onPressed: () {},
+
+        onPressed: () {
+          // Polka
+        },
         child: Text(
           'Login',
           style: TextStyle(
